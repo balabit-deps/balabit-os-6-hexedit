@@ -1,0 +1,20 @@
+Source: hexedit
+Section: editors
+Priority: optional
+Maintainer: Pierre Blanc <pierreblanc75@gmail.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9), libncurses5-dev
+Homepage: http://rigaux.org/hexedit.html
+Vcs-Git: git://anonscm.debian.org/collab-maint/hexedit.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/hexedit.git
+
+Package: hexedit
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: view and edit files in hexadecimal or in ASCII
+ hexedit shows a file both in ASCII and in hexadecimal.
+ The file can be a device as the file is not wholly read.
+ You can modify the file and search through it.
+ You have also copy&paste and save to file functions.
+ Truncating or appending to the file is allowed.
+ Modifications are shown in bold.

@@ -1,0 +1,36 @@
+fix spelling error
+--- a/hexedit.1
++++ b/hexedit.1
+@@ -106,7 +106,7 @@
+ .br
+ o \fICtrl+O\fR, \fIF3\fR \- open another file
+ .br
+-o \fICtrl+L\fR \- redisplay (refresh) the display (usefull when your terminal screws up).
++o \fICtrl+L\fR \- redisplay (refresh) the display (useful when your terminal screws up).
+ .br
+ o \fIBackspace\fR, \fICtrl+H\fR \- undo the modifications made on the previous byte.
+ .br
+@@ -134,12 +134,12 @@
+ .br
+ .SS Modeline
+ At the bottom of the display you have the modeline (copied from emacs). As in
+-emacs, you have the indications --, ** and %% meaning unmodified, modified and
++emacs, you have the indications \-\-, ** and %% meaning unmodified, modified and
+ read-only. Then you have the name of the file you're currently editing. Next to
+ it is the current position of the cursor in the file followed by the total file
+ size. The total file size isn't quite correct for devices.
+ .br
+-While in --sector mode, it shows the sector the cursor is in.
++While in \-\-sector mode, it shows the sector the cursor is in.
+ .SS Editing
+ You can edit in ASCII or in hexadecimal. You can switch between the two with
+ \fITab\fR. When the file is read-only, you can't edit it. When trying to edit a
+@@ -237,7 +237,7 @@
+ Another feature could be to complete padd odd length hexadecimal searches with
+ zeros.
+ .SH BUGS
+-I have an example where the display is completly screwed up. It seems to be a
++I have an example where the display is completely screwed up. It seems to be a
+ bug in ncurses (or maybe in xterm and rxvt)?? Don't know if it's me using
+ ncurses badly or not... It seems to happen when \fIhexedit\fR leaves only one
+ space at the end of the lines... If anyone has a (or the) solution, please tell
